@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="305"
+   height="110"
+   viewBox="0 0 80.697916 29.104168"
+   version="1.1"
+   id="svg1563"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="neopub_original.svg">
+  <defs
+     id="defs1557" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="174.09512"
+     inkscape:cy="151.13856"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1560">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-267.89581)">
+    <g
+       transform="translate(-33.689874,71.092301)"
+       id="g1539"
+       style="stroke:none">
+      <g
+         style="fill:#ff720a;fill-opacity:1;stroke:none"
+         transform="matrix(0.58688,0,0,0.62840877,-30.722604,158.55011)"
+         id="g1433-7-3-0">
+        <rect
+           style="opacity:1;fill:#ff720a;fill-opacity:1;stroke:none;stroke-width:1.42543018;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           id="rect1399-6-0-5"
+           width="79.115593"
+           height="30.666771"
+           x="111.60768"
+           y="61.618866"
+           rx="0"
+           ry="0" />
+        <path
+           sodipodi:type="star"
+           style="opacity:1;fill:#ff720a;fill-opacity:1;stroke:none;stroke-width:1.63199997;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           id="path1429-4-9-9"
+           sodipodi:sides="3"
+           sodipodi:cx="31.938707"
+           sodipodi:cy="101.62597"
+           sodipodi:r1="20.930445"
+           sodipodi:r2="12.439523"
+           sodipodi:arg1="2.0955963"
+           sodipodi:arg2="3.1427939"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 21.451719,119.73968 0.04355,-36.252566 31.373871,18.163996 z"
+           inkscape:transform-center-y="-4.0289116e-06"
+           transform="matrix(0.8854878,0,0,1.0059325,92.575701,-13.295256)" />
+      </g>
+      <text
+         id="text1437-3-2-4"
+         y="212.28127"
+         x="46.723251"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332;stroke:none"
+           y="212.28127"
+           x="46.723251"
+           id="tspan1435-0-5-6"
+           sodipodi:role="line">neo</tspan></text>
+      <text
+         id="text1495-9"
+         y="213.00375"
+         x="80.754761"
+         style="font-style:normal;font-weight:normal;font-size:22.57777786px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#141414;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#141414;fill-opacity:1;stroke-width:0.26458332;stroke:none"
+           y="213.00375"
+           x="80.754761"
+           id="tspan1493-2"
+           sodipodi:role="line">pub</tspan></text>
+    </g>
+  </g>
+</svg>
