@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NeoPub OÜ</title>
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.css">
+        <style>
+            /* small css for the mobile nav close */
+            #nav-mobile-btn.close span:first-child {
+                transform: rotate(45deg);
+                top: 4px;
+                position: relative;
+                background: #a0aec0;
+            }
+
+            #nav-mobile-btn.close span:nth-child(2) {
+                transform: rotate(-45deg);
+                margin-top: 0px;
+                background: #a0aec0;
+            }
+        </style>
+    </head>
+
+    <body class="overflow-x-hidden antialiased">
+        <div class="relative z-20 w-full h-24 px-8 pt-2 bg-white">
+
+
+            <!-- MAIN CONTAINER -->
+            <div class="container flex items-center justify-between h-full max-w-6xl mx-auto">
+                <a href="https://www.neopublisher.com" class="relative flex items-center inline-block h-5 h-full font-black">
+
+                    <!-- NEOPUB LOGO -->
+                    <img src="../neopub_original_v2_plain.png" class="w-auto h-12 mt-1">
+                </a>
+
+                <!-- NAVIGATION -->
+                <div id="nav"
+                    class="absolute top-0 left-0 hidden block w-full mt-20 border-b border-gray-200 sm:border-none sm:px-5 sm:block sm:relative sm:mt-0 sm:px-0 sm:w-auto">
+                    <nav
+                        class="flex flex-col items-center py-3 bg-white border border-gray-100 sm:flex-row sm:bg-transparent sm:border-none sm:py-0">
+                        <a href="https://www.neopublisher.com"
+                            class="relative p-2 mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8">Home
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-1 -mb-2 bg-orange-400 rounded-full "></span></a>
+
+                                <a href="../#neopub-expertise"
+                                class=" mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8 p-2 rounded-lg hover:bg-orange-200">Expertise
+                            </a>
+
+
+                        <a href="../about/"
+                            class=" mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8 p-2 rounded-lg hover:bg-orange-200">About
+                        </a>
+
+                        <a href="../contact/"
+                            class=" mb-1 mb-5 mr-0 text-base font-bold sm:mb-0 sm:mr-4 lg:mr-8 p-2 rounded-lg hover:bg-orange-200">Contact
+
+                        </a>
+                    </nav>
+                </div>
+
+                <div id="nav-mobile-btn"
+                    class="absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none sm:hidden sm:mt-10">
+                    <span class="block w-full h-1 mt-2 duration-200 transform bg-gray-800 rounded-full sm:mt-1"></span>
+                    <span class="block w-full h-1 mt-1 duration-200 transform bg-gray-800 rounded-full"></span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Expertise Section -->
+        <div id="neopub-expertise" class="relative w-full pb-20 overflow-hidden bg-white pt-6 md:pt-12 md:pb-64">
+            <!-- CURVED SVG BORDER INVERT -->
+            <div class="container relative flex flex-col justify-between h-full max-w-6xl px-8 mx-auto xl:px-0">
+                <h2 class="relative flex items-center self-start inline-block w-auto mb-4 text-3xl font-black">
+                    <span class="absolute inline-block w-full h-4 mt-3 -ml-2 bg-orange-300"></span>
+                    <span class="relative">About Us</span>
+                </h2>
+
+                <div class="flex w-full h-full">
+
+                    <div class="w-full text-gray-900">
+
+                        <!-- BOGO TEXTO A PARTIR DAQUI -->
+
+                        <p class="text-orange-500">Last updated on YYYYYY</p>
+
+                        <p class="text-2xl leading-relaxed font-medium my-4">Title maroto do texto</p>
+
+                        <p class="text-md leading-relaxed my-3">Esta Política de Privacidad explicará cómo nuestra organización (Dinero Español) utiliza los datos personales que recopilamos de usted cuando utiliza nuestro sitio web.</p>
+
+                        <ul class="list-disc list-inside my-3">
+                            <li>Texto em unordered list</li>
+                            <li>Texto em unordered list</li>
+                            <li>Texto em unordered list</li>
+                        </ul>
+
+                        <p class="text-md leading-relaxed my-3">Esta Política de Privacidad explicará cómo nuestra organización (Dinero Español) utiliza los datos personales que recopilamos de usted cuando utiliza nuestro sitio web.</p>
+
+                        <ul class="list-decimal list-inside my-3">
+                            <li>Texto em unordered list</li>
+                            <li>Texto em unordered list</li>
+                            <li>Texto em unordered list</li>
+                        </ul>
+      
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Blob SVG Border -->
+            <svg class="absolute bottom-0 w-full text-gray-200 fill-current" viewBox="0 0 1400 74"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0 24C87.243 11.422 173.12 5.133 257.633 5.133 468.305 5.133 578.027 74 700 74c136.015 0 290.882-96.208 481.234-68.867C1268.807 17.71 1341.73 24 1400 24v50H0V24z" />
+            </svg>
+
+        </div>
+        
+
+
+        <footer class="px-4 pt-12 pb-8 text-white bg-black">
+            <div class="container flex flex-col justify-between max-w-6xl px-4 mx-auto overflow-hidden lg:flex-row">
+
+                <a href="#_" class="block lg:w-1/3 mr-4">
+
+                    <img src="../neopub_white_v2_plain.png" class="w-auto h-12 mt-1">
+
+                </a>
+                <div class="block w-2/3 mt-6 text-sm sm:flex lg:mt-0">
+                    <ul class="flex flex-col w-full p-0 font-thin text-left text-gray-700 list-none">
+                        <li class="inline-block px-3 py-2 font-medium tracking-wide text-white uppercase">Company</li>
+                        <li><a href="../about/"
+                            class="inline-block px-3 py-2 text-gray-300 no-underline hover:text-white">About Us</a>
+                    </li>
+                        <li><a href="../#neopub-expertise"
+                                class="inline-block px-3 py-2 text-gray-300 no-underline hover:text-white">Expertise</a>
+                        </li>
+                        <li><a href="../contact/"
+                                class="inline-block px-3 py-2 text-gray-300 no-underline hover:text-white">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col w-full p-0 font-thin text-left text-gray-700 list-none">
+                        <li class="inline-block px-3 py-2 font-medium tracking-wide text-white uppercase">Legal</li>
+                        <li><a href="../privacy/"
+                                class="inline-block px-3 py-2 text-gray-300 no-underline hover:text-white">Privacy</a>
+                        </li>
+                        <li><a href="../terms/"
+                                class="inline-block px-3 py-2 text-gray-300 no-underline hover:text-white">Terms of
+                                Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-4 pt-6 mt-10 text-center text-gray-600 border-t border-gray-800"> ©2021 NeoPub OÜ. Sepapaja 6, Tallinn 15551, Harju Estonia - Company Registration Number: 16338675</div>
+        </footer>
+
+        <!-- a little JS for the mobile nav button -->
+        <script>
+            if (document.getElementById('nav-mobile-btn')) {
+                document.getElementById('nav-mobile-btn').addEventListener('click', function () {
+                    if (this.classList.contains('close')) {
+                        document.getElementById('nav').classList.add('hidden');
+                        this.classList.remove('close');
+                    } else {
+                        document.getElementById('nav').classList.remove('hidden');
+                        this.classList.add('close');
+                    }
+                });
+            }
+        </script>
+
+    </body>
+
+</html>
